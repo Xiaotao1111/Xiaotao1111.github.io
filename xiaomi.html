@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>小米页面示例</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* 顶部导航栏 */
+    .top-nav {
+      height: 40px;
+      line-height: 40px;
+      padding: 0 20px;
+      border-bottom: 1px solid #eee;
+    }
+    .top-nav a {
+      color: #666;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .top-nav .right {
+      float: right;
+    }
+    /* 头部区域 */
+    .header {
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      width: 60px;
+      height: 60px;
+      background-color: #ff6700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .open-buy {
+      font-size: 14px;
+      color: #999;
+    }
+    /* 搜索区域 */
+    .search-area {
+      display: flex;
+      align-items: center;
+    }
+    .search-input {
+      width: 300px;
+      height: 36px;
+      padding: 0 10px;
+      border: 1px solid #ccc;
+    }
+    .search-tags a {
+      color: #666;
+      text-decoration: none;
+      margin: 0 5px;
+      font-size: 14px;
+    }
+    .search-btn {
+      width: 40px;
+      height: 36px;
+      border: 1px solid #ccc;
+      border-left: none;
+      background: #fff;
+      cursor: pointer;
+    }
+    .cart {
+      width: 120px;
+      height: 36px;
+      line-height: 36px;
+      text-align: center;
+      background-color: #ffd100;
+      color: #000;
+      text-decoration: none;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- 顶部导航栏 -->
+  <div class="top-nav">
+    <a href="#">小米网</a> |
+    <a href="#">MIUI</a> |
+    <a href="#">米聊</a> |
+    <a href="#">游戏</a> |
+    <a href="#">多看阅读</a> |
+    <a href="#">云服务</a> |
+    <a href="#">小米网移动版</a>
+    <div class="right">
+      <a href="#">登录</a> |
+      <a href="#">注册</a>
+    </div>
+  </div>
+
+  <!-- 头部区域 -->
+  <div class="header">
+    <div class="logo">MI</div>
+    <div class="open-buy">
+      <span>⏰ 下轮开放购买：8月26日星期二</span>
+    </div>
+    <div class="search-area">
+      <input type="text" class="search-input" placeholder="搜索您需要的商品">
+      <div class="search-tags">
+        <a href="#">小米手机4</a>
+        <a href="#">小米电视</a>
+        <a href="#">小米手机3</a>
+      </div>
+      <button class="search-btn">🔍</button>
+      <a href="#" class="cart">🛒 购物车</a>
+    </div>
+  </div>
+<body>
+  <img src="./images/小米中文_03.gif" alt="">
+  <img src="./images/小米中文_05.gif" alt="">
+  <img src="./images/小米中文_07.gif" alt="">
+  <img src="./images/小米中文_09.gif" alt="">
+  <img src="./images/小米中文_09.gif" alt="">
+  <img src="./images/小米中文_11.gif" alt="">
+  <img src="./images/小米中文_12.gif" alt="">
+  <img src="./images/小米中文_14.gif" alt="">
+  <img src="./images/小米中文_15.gif" alt="">
+  <img src="./images/小米中文_17.gif" alt="">
+  <img src="./images/小米中文_19.gif" alt="">
+</body>
+</body>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>小米底部页面</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        /* 服务栏样式 */
+        .service-bar {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .service-item {
+            text-align: center;
+        }
+        .service-item i {
+            font-size: 24px;
+            color: #616161;
+            margin-bottom: 8px;
+            display: inline-block;
+        }
+        .service-item span {
+            font-size: 14px;
+            color: #616161;
+        }
+
+        /* 帮助中心栏样式 */
+        .help-bar {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .help-col {
+            text-align: left;
+        }
+        .help-col a {
+            display: block;
+            font-size: 12px;
+            color: #757575;
+            text-decoration: none;
+            margin-bottom: 8px;
+        }
+        .help-col a:hover {
+            color: #ff6700;
+        }
+        .contact-col {
+            text-align: center;
+        }
+        .contact-col .phone {
+            font-size: 22px;
+            color: #ff6700;
+            margin-bottom: 8px;
+        }
+        .contact-col .time {
+            font-size: 12px;
+            color: #757575;
+            margin-bottom: 12px;
+        }
+        .contact-col .btn {
+            display: inline-block;
+            padding: 5px 15px;
+            border: 1px solid #ff6700;
+            color: #ff6700;
+            font-size: 12px;
+            text-decoration: none;
+        }
+        .contact-col .btn:hover {
+            background: #ff6700;
+            color: #fff;
+        }
+
+        /* 底部信息栏样式 */
+        .footer-bar {
+            padding: 20px 0;
+            font-size: 12px;
+            color: #757575;
+        }
+        .footer-links {
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .footer-links a {
+            color: #757575;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .footer-links a:hover {
+            color: #ff6700;
+        }
+        .footer-info {
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .footer-logos {
+            text-align: center;
+        }
+        .footer-logos img {
+            height: 24px;
+            margin: 0 5px;
+        }
+        .lang-select {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            padding: 5px;
+            border: 1px solid #e0e0e0;
+            background: #fff;
+        }
+    </style>
+    <!-- 引入图标（模拟示例中的图标） -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- 语言选择 -->
+    <select class="lang-select">
+        <option>简体中文</option>
+        <option>English</option>
+    </select>
+
+    <!-- 服务栏 -->
+    <div class="service-bar">
+        <div class="service-item">
+            <<i class="fa fa-wrench"></</i>
+            <span>一小时快修服务</span>
+        </div>
+        <div class="service-item">
+            <<i class="fa fa-clock-o"></</i>
+            <span>七天无理由退货</span>
+        </div>
+        <div class="service-item">
+            <<i class="fa fa-refresh"></</i>
+            <span>15天免费换货</span>
+        </div>
+        <div class="service-item">
+            <<i class="fa fa-shopping-cart"></</i>
+            <span>满150元包邮</span>
+        </div>
+        <div class="service-item">
+            <<i class="fa fa-map-marker"></</i>
+            <span>460余家售后网点</span>
+        </div>
+    </div>
+
+    <!-- 帮助中心栏 -->
+    <div class="help-bar">
+        <div class="help-col">
+            <a href="#">帮助中心</a>
+            <a href="#">购物指南</a>
+            <a href="#">支付方式</a>
+            <a href="#">配送方式</a>
+        </div>
+        <div class="help-col">
+            <a href="#">帮助中心</a>
+            <a href="#">购物指南</a>
+            <a href="#">支付方式</a>
+            <a href="#">配送方式</a>
+        </div>
+        <div class="help-col">
+            <a href="#">帮助中心</a>
+            <a href="#">购物指南</a>
+            <a href="#">支付方式</a>
+            <a href="#">配送方式</a>
+        </div>
+        <div class="help-col">
+            <a href="#">帮助中心</a>
+            <a href="#">购物指南</a>
+            <a href="#">支付方式</a>
+            <a href="#">配送方式</a>
+        </div>
+        <div class="help-col">
+            <a href="#">帮助中心</a>
+            <a href="#">购物指南</a>
+            <a href="#">支付方式</a>
+            <a href="#">配送方式</a>
+        </div>
+        <div class="contact-col">
+            <div class="phone">400-100-5678</div>
+            <div class="time">周一至周日8:00-18:00<br>（仅收市话费）</div>
+            <a href="#" class="btn">24小时在线客服</a>
+        </div>
+    </div>
+
+    <!-- 底部信息栏 -->
+    <div class="footer-bar">
+        <div class="footer-links">
+            <a href="#">小米旗下网站：小米网</a> |
+            <a href="#">MIUI</a> |
+            <a href="#">米聊</a> |
+            <a href="#">多看书城</a> |
+            <a href="#">小米路由器</a> |
+            <a href="#">繁华香港</a> |
+            <a href="#">繁华台湾</a> |
+            <a href="#">English</a> |
+            <a href="#">小米后院</a> |
+            <a href="#">小米天猫店</a> |
+            <a href="#">小米网盟</a>
+        </div>
+        <div class="footer-info">
+            @mi.com, 京ICP证110507号 京ICP备10046444号 京公网安备 1101080212535号 京网文[2014]0059-009号
+        </div>
+        <div class="footer-logos">
+            <img src="https://img.icons8.com/color/48/000000/china.png" alt="认证">
+            <img src="https://img.icons8.com/color/48/000000/china.png" alt="认证">
+            <img src="https://img.icons8.com/color/48/000000/china.png" alt="认证">
+        </div>
+    </div>
+</body>
+</html>
+</html>
